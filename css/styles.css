@@ -1,0 +1,23 @@
+body {
+    font-family: sans-serif;
+}
+
+#shoppingList {
+    margin-top: 10px;
+}
+
+.shoppingItem {
+    list-style: none;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid grey;
+    width: 500px;
+}
+
+.shoppingItem p {
+    margin: none;
+}
+
+.lineThrough {
+    text-decoration: line-through;
+}
