@@ -14,6 +14,19 @@ body {
     width: 500px;
 }
 
+.shoppingItem div {
+    margin-top: 10px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.shoppingItem button {
+    border-radius: 20px;
+    max-width: 100px;
+}
+
 .shoppingItem p {
     margin: none;
 }
