@@ -27,7 +27,9 @@ window.onload = function () {
 
   const addCheckEvent = (id, target, event = 'click') => {
     document.getElementById(id).addEventListener(event, function () {
-      document.getElementById(target).style.textDecoration = 'line-through'
+      var label = document.getElementById(target);
+      label.style.textDecoration = 
+        label.style.textDecoration == 'line-through' ? 'unset' : 'line-through';
     })
   }
 
